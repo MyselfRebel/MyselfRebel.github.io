@@ -21,6 +21,10 @@ a:hover {
 h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+container {
+  padding-left: 7%;
+  padding-right: 7%;
+}
 p {
     line-height: 1.4em;
     color: #333;
