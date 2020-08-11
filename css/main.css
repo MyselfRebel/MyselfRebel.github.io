@@ -1,15 +1,29 @@
-body {
-    margin: auto;
+body{
+    margin: 0;
+}
+nav ul, footer ul{
+    padding: 0;
+}
+nav ul li a,footer ul li a{
+    color: white;
+}
+nav, footer{
+    background: #333;
+    padding-top: .5%;
+    padding-bottom: .5%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 3%;
     list-style: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
+nav ul li{
     display: inline;
-    margin-right: 20px;
+    margin-left: 5%;
+}
+footer ul li{
+    display: inline;
+    margin-right: 5%;
 }
 a {
     text-decoration: none;
@@ -20,17 +34,22 @@ a:hover {
 }
 h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 1.5em;
 }
-container {
+.container {
   padding-left: 7%;
   padding-right: 7%;
 }
 p {
-    line-height: 1.4em;
-    color: #333;
+  line-height: 1.4em;
+  color: #333;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #888;
 }
 
 ul.posts { 
