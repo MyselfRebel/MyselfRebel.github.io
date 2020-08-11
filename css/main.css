@@ -45,17 +45,13 @@ p {
   color: #333;
 }
 footer {
-  position: absolute;
-  bottom: 0;
+  margin-top: 100%;
   width: 100%;
   text-align: center;
   border-top: 1px solid #888;
 }
 
-ul.posts { 
+ul.posts li { 
     margin: 20px auto 40px; 
-}
-
-ul.posts li {
     list-style: none;
 }
