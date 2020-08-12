@@ -1,7 +1,5 @@
 body{
     margin: 0;
-    position: relative;
-    height: 100vh;
 }
 /*CURRENT*/
 nav, footer{
@@ -10,8 +8,6 @@ nav, footer{
     padding-bottom: .5%;
 }
 footer{
-  position: absolute;
-  bottom: 0;
   width: 100%;
   text-align: center;
 }
